@@ -1,0 +1,6 @@
+{
+  "name": "ColorCraft - AI Coloring Book Studio",
+  "description": "Create printable A4 coloring book pages tailored to student grade levels and topics, featuring randomized varied scenes and multi-page PDF booklet export.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

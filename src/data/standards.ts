@@ -1,0 +1,67 @@
+import { GradeStandard, StandardInfo } from '../types/coloring';
+
+export const GRADE_STANDARDS: StandardInfo[] = [
+  {
+    id: 'prek_k',
+    label: 'Standard Pre-K & K',
+    sublabel: 'Preschool & Kindergarten',
+    ageRange: 'Ages 3 – 5',
+    strokeWidth: 5,
+    complexityText: 'Extra-Bold Outlines • Giant Easy Shapes',
+    description: 'Ultra-thick 5px smooth black outlines with simple big shapes. Perfect for toddler crayons without frustrating tiny gaps.',
+    iconName: 'Baby',
+  },
+  {
+    id: 'grade_1_2',
+    label: 'Standard 1st – 2nd',
+    sublabel: 'Lower Primary Grade',
+    ageRange: 'Ages 6 – 8',
+    strokeWidth: 4,
+    complexityText: 'Bold Contours • Storytelling Scenes',
+    description: 'Clear 4px distinct black outlines, cheerful scenes with fun contextual elements (trees, sun, clouds) for colored pencils and markers.',
+    iconName: 'Smile',
+  },
+  {
+    id: 'grade_3_5',
+    label: 'Standard 3rd – 5th',
+    sublabel: 'Upper Primary Grade',
+    ageRange: 'Ages 8 – 11',
+    strokeWidth: 3,
+    complexityText: 'Medium Lines • Rich Textures',
+    description: 'Crisp medium 3px outlines, detailed animal textures (fur stripes, feathers, scales), and dynamic environment backdrops.',
+    iconName: 'Sparkles',
+  },
+  {
+    id: 'grade_6_8',
+    label: 'Standard 6th – 8th',
+    sublabel: 'Middle School',
+    ageRange: 'Ages 11 – 14',
+    strokeWidth: 2,
+    complexityText: 'Fine Ink Lines • Comic / Wildlife Style',
+    description: 'Fine 2px clean ink lines, realistic or stylized comic perspective, and intricate botanical/architectural environment depth.',
+    iconName: 'Compass',
+  },
+  {
+    id: 'grade_9_plus',
+    label: 'Standard 9th – 12+ / Adult',
+    sublabel: 'High School & Advanced',
+    ageRange: 'Ages 14+',
+    strokeWidth: 1.5,
+    complexityText: 'Intricate Patterns • Zen Mandala Aesthetic',
+    description: 'Delicate fine lines, ornate ornamental patterns, botanical textures, and adult coloring book mindfulness complexity.',
+    iconName: 'Feather',
+  },
+];
+
+export const QUICK_TOPICS = [
+  { label: 'Jungle Safari', emoji: '🐒', sample: 'Jungle animals like tigers, chimpanzees, elephants & toucans' },
+  { label: 'Deep Ocean', emoji: '🐋', sample: 'Dolphins, sea turtles, octopuses, and coral reefs' },
+  { label: 'Outer Space', emoji: '🚀', sample: 'Astronauts, rockets, alien planets, and stars' },
+  { label: 'Prehistoric Dinosaurs', emoji: '🦕', sample: 'T-Rex, Brachiosaurus, Triceratops, and volcanoes' },
+  { label: 'Fairytale Kingdom', emoji: '🏰', sample: 'Castles, friendly dragons, unicorns, and royal crowns' },
+  { label: 'Vehicles & Transport', emoji: '🚒', sample: 'Fire trucks, airplanes, trains, and race cars' },
+  { label: 'Farmyard Friends', emoji: '🐮', sample: 'Cows, sheep, horses, tractors, and barnyard life' },
+  { label: 'Enchanted Forest', emoji: '🍄', sample: 'Woodland foxes, owls, glowing mushrooms, and fairies' },
+  { label: 'Robots & Tech', emoji: '🤖', sample: 'Friendly robots, gadget workshops, and futuristic cities' },
+  { label: 'Sweet Bakery', emoji: '🧁', sample: 'Cupcakes, ice cream sundaes, donuts, and baker chefs' },
+];
